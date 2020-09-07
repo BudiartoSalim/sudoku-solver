@@ -1,4 +1,4 @@
-const DefaultURL = `http://localhost:3000`
+const DefaultURL = `https://sudoku-solver-server-side.herokuapp.com`
 
 $(document).ready(() => {
   generateGrid();
