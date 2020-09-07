@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <form id="sudoku-form" method="POST" onsubmit="solvePuzzle(event)">
+    <table id="main-grid">
+      <h1>Sudoku Solver!</h1>
+      <h4>Please input valid starter number; <br><br></h4>
+      <h2 style="color: green;" id="solved-msg" class="result-msg">Solved!</h2>
+      <h2 style="color: red;" id="unsolved-msg" class="result-msg">Puzzle unsolvable!</h2>
+      <colgroup>
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <colgroup>
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <colgroup>
+        <col>
+        <col>
+        <col>
+      </colgroup>
+      <tbody id="grid-body">
+      </tbody>
+    </table>
+    <br>
+    <input style="font-size:20px" type="submit" value="Solve Puzzle!" id="solve-button">
+    <br><br>
+    <input style="font-size:20px" type="button" value="Reset Puzzle" onclick="resetBoard(event)">
+  </form>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

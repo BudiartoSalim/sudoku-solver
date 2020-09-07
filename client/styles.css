@@ -1,0 +1,25 @@
+table { 
+  border-collapse: collapse; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+colgroup, tbody {border: solid medium;}
+
+.nth-row{
+  border-top: solid medium;
+}
+
+td {
+  border:solid thin; 
+  font-size: 32px;
+  width: 48px;
+  height: 48px; 
+  text-align: center; 
+  padding:0;
+}
+
+.cell-input{
+  font-size: 18px;
+  width: 75%;
+  height: 75%;
+}
