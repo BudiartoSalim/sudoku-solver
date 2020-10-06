@@ -1,4 +1,6 @@
 # sudoku-solver
+App is deployed at: https://sudoku-solver-71521.web.app/
+
 Sudoku solver app built using express nodejs, with client-server architecture,
 the solver algorithm is done on server-side via a POST request from the client app.
 
